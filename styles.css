@@ -89,7 +89,7 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
+  margin: 30px 15px;
   padding: 20px 40px 40px;
   max-width: 500px;
   text-align: left;
@@ -116,8 +116,22 @@ ul.skills {
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
+.hobbies {
+  padding-left: 0;
+}
+
+.hobbies li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.hobbies li strong{
+  border-radius: 6px;
+  display: inline-block;
   background: #0399ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 2px;
 }
 
 footer {
