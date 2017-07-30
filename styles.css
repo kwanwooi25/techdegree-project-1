@@ -51,7 +51,8 @@ a:hover {
 .nav a {
   transition: all .5s;
 }
-.nav a:hover {
+.nav a:hover,
+.nav .active {
   color: white
 }
 
@@ -132,6 +133,25 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 2px;
+}
+
+.school,
+.jobs,
+.others {
+  padding-left: 20px;
+}
+
+.school li,
+.jobs li,
+.others li {
+  list-style-type: circle;
+  margin-bottom: 15px;
+}
+
+.school-img {
+  width: 100%;
+  padding: 2%;
+  border-radius: 20px;
 }
 
 footer {
